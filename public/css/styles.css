@@ -1,0 +1,105 @@
+body {
+  background: url("images/blood.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  ;
+}
+
+
+.navbar-brand {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  color: white;
+  margin-left: 70px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color:#f6cd90;
+}
+
+.nav-link {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.nav-link:hover {
+    color:#f6cd90;
+}
+
+.quotes {
+  font-family: 'Merienda', cursive;
+  width: 30%;
+  position: relative;
+  top: 60px;
+  left: 230px;
+  text-align: justify;
+  color: #f7be16;
+}
+
+
+
+.btn {
+  font-family: 'Merriweather', serif;
+  position: absolute;
+  bottom: 150px;
+  left: 850px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.btn1 {
+  left: 700px;
+}
+
+.btn2 {
+  left: 800px;
+}
+
+#carouselExampleIndicators {
+  width: 40%;
+  height: 40%;
+  position: relative;
+  left: 700px;
+  bottom: 300px;
+}
+
+.carousel-control-next-icon {
+  color: black;
+}
+
+.follow {
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom: 30px;
+  right: 570px;
+}
+
+.icons {
+  position: absolute;
+  bottom: 43px;
+  right: 330px;
+}
+
+.fab {
+  color: gold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fab:hover {
+  color: #f6cd90;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(0, 255, 0, 0.5);
+}
