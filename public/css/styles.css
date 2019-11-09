@@ -1,5 +1,5 @@
 body {
-  background: url("images/blood.png") no-repeat center center fixed;
+  background: url("images/bloodbody.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,67 +7,75 @@ body {
   ;
 }
 
+.navbar {
+  background: rgba(255, 255, 255, 0.5);
+}
+
 
 .navbar-brand {
   font-family: 'Merriweather', serif;
   font-size: 2rem;
-  color: white;
+  color: black;
   margin-left: 70px;
-  margin-top: 20px;
+  margin-top: 5px;
   font-weight: bold;
 }
 
 .navbar-brand:hover {
-  color:#f6cd90;
+  color: red;
 }
 
 .nav-link {
   font-family: 'Merriweather', serif;
   font-weight: bold;
-  color: white;
-  margin-top: 20px;
+  color: black;
+  margin-top: 5px;
   margin-left: 25px;
 }
 
 .nav-link:hover {
-    color:#f6cd90;
+    color:red;
 }
 
 .quotes {
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.3);
   font-family: 'Merienda', cursive;
-  width: 30%;
-  position: relative;
-  top: 60px;
-  left: 230px;
+
   text-align: justify;
-  color: #f7be16;
+  color: white;
+  margin-top: 140px;
+  animation-delay: 0.5s;
 }
 
 
 
 .btn {
+  color: black;
   font-family: 'Merriweather', serif;
-  position: absolute;
-  bottom: 150px;
-  left: 850px;
+
   font-weight: bold;
-  margin-right: 30px;
+
 }
 
 .btn1 {
-  left: 700px;
+
+  animation-delay: 1.5s;
 }
 
 .btn2 {
-  left: 800px;
+  margin-left: 30px;
+  animation-delay: 2s;
 }
 
 #carouselExampleIndicators {
-  width: 40%;
-  height: 40%;
   position: relative;
-  left: 700px;
-  bottom: 300px;
+  right: 40px;
+
+
+
+  animation-delay: 1s;
+
 }
 
 .carousel-control-next-icon {
@@ -76,30 +84,202 @@ body {
 
 .follow {
   font-family: 'Merriweather', serif;
-  color: white;
+  color: black;
   font-weight: bold;
   position: absolute;
   bottom: 30px;
-  right: 570px;
+  left: 90px;
+  animation-delay: 2.5s;
 }
 
 .icons {
   position: absolute;
   bottom: 43px;
-  right: 330px;
+  left: 180px;
+  animation-delay: 3s;
 }
 
 .fab {
-  color: gold;
+  color: black;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .fab:hover {
-  color: #f6cd90;
+  color: red;
 }
 
 h5 {
   font-family: 'Montserrat', sans-serif;
   background-color: rgba(0, 255, 0, 0.5);
+}
+
+.col-sm {
+  margin-top: 70px;
+}
+
+/* ...........form............ */
+
+form {
+background-color: rgba(0, 0, 0, 0.3);
+padding-bottom: 150px;
+width: 60%;
+position: relative;
+left: 300px;
+}
+
+label {
+  animation-delay: 1s;
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-top: 15px;;
+  color: white;
+}
+input {
+ position: absolute;
+ right: 120px;
+  margin-top: 10px;
+  animation-delay: 1s;
+  width: 40%;
+}
+
+.btnRegister {
+  position: relative;
+  top: 80px;
+  left: 90px;
+  animation-delay: 1s;
+}
+
+.register {
+  animation-delay: 0.5s;
+}
+
+.newUser {
+  position: relative;
+  top: 150px;
+  left: 280px;
+  color: white;
+}
+
+.here {
+  color: red;
+  font-weight: bolder;
+}
+
+.donor {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 50%;
+  margin-left: 350px;
+}
+
+.label {
+  margin-left: 250px;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffbbb4;
+}
+
+h4,h6 {
+  display: inline-block;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.break {
+  background-color: none;
+  width: 100%;
+  height: 5px;
+  background-color: rgba(0, 0, 0, 1.0);
+}
+
+/* .................responsive............... */
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+
+.follow {
+  top: 550px;
+  left: 120px;
+}
+
+i {
+  position: relative;
+  top: 105px;
+  left: 30px;
+}
+
+.navbar-brand {
+  position: relative;
+  left: 35px;
+}
+
+.nav-link {
+  position: relative;
+  left: 35px;
+}
+
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+
+.follow {
+  top: 500px;
+  left: 50px;
+}
+
+i {
+  position: relative;
+  top: 105px;
+  right: 30px;
+}
+
+.fab {
+  color: #ffbbb4;
+}
+
+#carouselExampleIndicators {
+  position: relative;
+  left: 0px;
+}
+
+.navbar-brand {
+  position: relative;
+  right: 40px;
+}
+
+.nav-link {
+  position: relative;
+  right: 40px;
+}
+
+label {
+  position: relative;
+  right: 80px;
+}
+
+.btnRegister {
+  position: relative;
+  left: -50px;
+}
+
+.newUser {
+  display: inline-block;
+  position: relative;
+  left: 100px;
+}
+
+}
+
+@media (min-width: 2500px) and (max-width: 2600px) {
+
+  label {
+    position: relative;
+    left: 300px;
+  }
+
+  .btnRegister {
+    margin-left: 300px;
+  }
 }

@@ -1,0 +1,23 @@
+<%- include("partials/header") -%>
+
+
+<div class="registerDiv">
+  <form class="register animated fadeIn" action="/login" method="post">
+
+    <label class="animated slideInLeft" for="">Username</label><input class="animated slideInRight" type="text" name="username" value="" placeholder="Enter your name">
+
+    <br><label class="animated slideInLeft" for="">Password</label><input class="animated slideInRight" type="password" name="password" value="">
+
+    <button type="submit" class="btn btn-light btnRegister animated slideInDown">Login</button>
+    <p class="newUser">New User? Register <a class="here" href="/register">HERE</a>. </p>
+
+  </form>
+</div>
+
+
+
+
+
+
+
+<%- include("partials/footer") -%>
